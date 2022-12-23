@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>student login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>SIGN IN</h2>
+        <form action="signIn.php" method="post">
+            <div class="user-box">
+                <input type="text" name="MatricNo" required>
+                <label>Matric no.</label>
+            </div>
+            
+            <div class="user-box">
+                <input type="Password" name="password" required>
+                <label>Password</label>
+            </div>
+           
+            <input type="submit" class="submit" value="Login" name="SignIn">
+            
+        </form>
+        <p>Click <a href="signingUp.php">here</a> to sign up</p>
+    </div>
+
+</body>
+</html>

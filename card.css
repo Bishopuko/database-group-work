@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.font{
+    height: 475px;
+    width: 525px;
+    position: relative;
+    border-radius: 10px;
+    background-image: url("");
+    background-size: 380px 570px;
+    background-repeat: no-repeat;
+}
+.firstName{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.top img{
+    position: absolute;
+    top: 10px;
+    left: 132px;
+    border: 10px solid rgba(225,225,225,.4);
+}
+.ename{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    color: white;
+    font-size: 13px;
+}
+.details{
+    position: absolute;
+    left: 20px;
+    top: 282px;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-emphasis: spacing;
+    margin-left: 3px;
+    color: white;
+}
